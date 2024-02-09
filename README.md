@@ -2,6 +2,12 @@
 
 cis_pdf_parser.py is a python script for parsing CIS Benchmark PDF files from the [Center for Internet Security](https://www.cisecurity.org/cis-benchmarks/) into a CSV file format. As of August 2021, all benchmarks are only published in PDF format, which limits their usability. 
 
+# THE REBUILD
+
+This project is one that could have great potential, but as something that is not being maintained and that it was written for seemingly specific use cases, the statement about usability became true the moment it finished creating the first csv file. In its current state it is unable to be used on new benchmarks even in its original intent. 
+
+This project will be to pivot on this idea to export the audit and remediation sections of each benchmark in a format that can be used for the specific operating system. the first OS will be linux with the others to follow at some time. 
+
 ## Use Cases
 
 This parser can be useful for the following use cases:
